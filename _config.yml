@@ -12,6 +12,7 @@ github_username: calinburloiu
 
 # Build settings
 markdown: kramdown
+#markdown: redcarpet
 
 kramdown:
   input: GFM
