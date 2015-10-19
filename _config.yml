@@ -11,8 +11,11 @@ twitter_username: CalinBurloiu
 github_username: calinburloiu
 
 # Build settings
-markdown: kramdown
-#markdown: redcarpet
+#markdown: kramdown
+markdown: redcarpet
 
 kramdown:
   input: GFM
+
+redcarpet:
+  extension: ["with_toc_data"]
