@@ -9,12 +9,12 @@ Nested Objects
 
 Object:
 
-{% highlight scala %}
+```scala
 case class Name(first: String, last: String)
 case class Person1(name: Name, age: Short)
 
 val person1 = Person1(Name("Calin", "Burloiu"), 27)
-{% endhighlight %}
+```
 
 Expected JSON:
 
